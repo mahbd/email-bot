@@ -1,0 +1,24 @@
+{
+  "accounts": [
+    {
+      "name": "Personal Gmail",
+      "protocol": "imap",
+      "imap_server": "imap.gmail.com",
+      "imap_port": 993,
+      "username": "you@gmail.com",
+      "password": "app-password-here",
+      "mailboxes": [
+        "*"
+      ],
+      "discord_webhook_url": "https://discord.com/api/webhooks/YOUR_ID/YOUR_TOKEN"
+    },
+    {
+      "name": "Personal Hotmail",
+      "protocol": "graph",
+      "username": "you@hotmail.com",
+      "auth_method": "oauth2",
+      "client_id": "YOUR_AZURE_CLIENT_ID",
+      "discord_webhook_url": "https://discord.com/api/webhooks/YOUR_ID/YOUR_TOKEN"
+    }
+  ]
+}
