@@ -19,3 +19,11 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 html2text = "0.14"
 futures = "0.3"
 tokio-util = { version = "0.7", features = ["compat"] }
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
+
+
